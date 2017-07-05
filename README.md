@@ -15,20 +15,20 @@ Get Gravatar Url
 ----------------
 Get Gravatar url with https protocol
 
-```
+```csharp
 var url = GravatarHelper.GetGravatarUrl("john.doe@gmail.com");
 ```
 
 or without the protocol
 
-```
+```csharp
 var url = GravatarHelper.GetGravatarUrl("john.doe@gmail.com", false);
 ```
 
 Configure Gravatar Helper
 ------------------
 
-```
+```csharp
 var url = GravatarHelper.GetGravatarUrl("john.doe@gmail.com", new GravatarHelperOptions()
 {
     DefaultImageUrl = "https://www.gravatar.com/avatar/00000000000000000000000000000000", // provide fallback image
