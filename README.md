@@ -3,6 +3,9 @@ Simple class to generate Gravatar Urls and Hashes.
 
 ## Documentation
 
+Read more here: [Gravatar Documentation](http://en.gravatar.com/site/implement/images/)
+
+
 Get Gravatar Hash
 -----------------
 Sometimes you just need the Gravatar hash.
