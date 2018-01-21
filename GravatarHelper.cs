@@ -75,7 +75,7 @@
 
             if (!String.IsNullOrWhiteSpace(@params))
             {
-                uri.Query = $"?{@params}";
+                uri.Query = $"{@params}";
             }
             
             return uri.ToString();
